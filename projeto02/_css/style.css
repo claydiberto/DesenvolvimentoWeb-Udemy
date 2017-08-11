@@ -1,0 +1,97 @@
+/* Limpar formatação padrão dos browsers */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Classes */
+.green {
+	color: #B9C941;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.data-postagem {
+	font-size: 14px;
+	display: block;
+	border-bottom: 1px solid #F4F4F4;
+	padding-bottom: 10px;
+	margin: 2px auto 10px auto;
+}
+
+.img-postagem {
+	border: 1px solid blue;
+	float: left;
+	margin: 0px 10px 5px 0;
+}
+
+.postado {
+	border-left: 5px solid #D8D8D8;
+	padding-left: 5px;
+	display: block;
+	margin-top: 10px;
+}
+
+.postagem {
+	background-color: #FFF;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.navegacao {
+	width: 720px;
+	margin: 0 auto;
+}
+
+/* IDs */
+#area-navegacao {
+	background-color: #FFF;
+	height: 45px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#area-postagem {
+	width: 720px;
+	margin: 55px auto 10px auto;
+}
+
+/* Tags */
+body {
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-color: #F3F3F3;
+}
+
+nav {
+	margin-top: 10px;
+}
+
+a {
+	text-decoration: none;
+	padding: 5px 10px;
+}
+
+a:link {
+	color: #838383;
+}
+
+a:visited {
+	color: #838383;
+}
+
+a:hover {
+	color: #FFF;
+	background-color: #B9C941;
+}
+
+a:active {
+	color: #535353;
+}
